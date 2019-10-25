@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,16 @@
   "bugs": {
     "url": "https://github.com/ChikaYvonne/Book--Foundations-and-React-Driven--Advances-in-Web-Applications-Development/issues"
   },
-  "homepage": "https://github.com/ChikaYvonne/Book--Foundations-and-React-Driven--Advances-in-Web-Applications-Development#readme"
+  "homepage": "https://github.com/ChikaYvonne/Book--Foundations-and-React-Driven--Advances-in-Web-Applications-Development#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "babel-polyfill": "^6.26.0",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
+  }
 }
